@@ -1,24 +1,18 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Demo from './Demo';
+import { Canvas } from '@react-three/fiber';
+import DemoCanvas from './DemoCanvas';
+import ThreeScene from './ThreeScene';
+import Cube from './Cube';
+import Cone from './Cone';
+import Cone2 from './Cone2';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Cone2/>
     </div>
   );
 }
